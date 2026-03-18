@@ -69,8 +69,8 @@ GitHub Pages → upload as index.html → Settings → Pages → Enable
 ### Mimecast URL Protect
 ```json
 {
-  "source_ip": "209.85.222.172",
-  "url": "https://sites.google.com/view/legalcounsel-notice",
+  "source_ip": {"ip"},
+  "url": {url},
   "is_blocked": "true",
   "source_json": {
     "action": "Block",
@@ -93,7 +93,7 @@ GitHub Pages → upload as index.html → Settings → Pages → Enable
   "P1Sender": "attacker@gmail.com",
   "Recipients": ["user@company.ae"],
   "SenderIp": "91.220.42.227",
-  "Subject": "Re: Inquiry Regarding Insurance Refund",
+  "Subject": {"subject"},
   "Verdict": "Phish"
 }
 ```
